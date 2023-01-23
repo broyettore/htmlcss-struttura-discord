@@ -1,7 +1,72 @@
-/***************** RESET **********/
+/***************** RESET *****************/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header, main, footer {
+    max-width: 60%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/***************** HEADER SECTION ****************/
+
+.header-top {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.ht-bar {
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border: 1px dashed black;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+}
+
+.nav-list li {
+    margin: 0 5px;
+}
+
+.nav-bar, .logo-ctn, .login {
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.logo-ctn, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+}
+
+.header-bottom {
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.hb-ctn {
+    background-color: #ee82ee;
+    width: 60%;
+    height: 300px;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+
+/***************** MAIN SECTION ****************/
+
