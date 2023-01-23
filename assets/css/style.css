@@ -7,16 +7,25 @@
 }
 
 header, main, footer {
-    max-width: 80%;
+    width: 1180px;
     margin: 0 auto;
+}
+
+/****************** REUSABLE *******************/
+
+.ht-bar, .section-content-ctn {
+    width: 70%;
+}
+
+.header-top, .header-bottom, .section-ctn {
+    display: flex;
+    justify-content: center;
 }
 
 /***************** HEADER SECTION ****************/
 
 .header-top {
     background-color: #add8e6;
-    display: flex;
-    justify-content: center;
     padding: 10px 0;
 }
 
@@ -25,7 +34,6 @@ header, main, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
     border: 1px dashed black;
 }
 
@@ -54,15 +62,13 @@ header, main, footer {
 
 .header-bottom {
     background-color: #00008b;
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
+    padding: 120px 40px;
 }
 
 .hb-ctn {
     background-color: #ee82ee;
     width: 60%;
-    height: 300px;
+    height: 279px;
     border: 2px dashed black;
     border-radius: 5px;
 }
@@ -78,19 +84,16 @@ header, main, footer {
 }
 
 .section-ctn {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
+    padding: 120px 40px;
 }
 
 .section-content-ctn {
     display: flex;
-    width: 70%;
     border: 1px dashed black;
 }
 
 .content-right, .content-left {
-    height: 400px;
+    height: 440px;
 }
 
 .content-left {
@@ -118,3 +121,50 @@ header, main, footer {
 }
 
 /***************** FOOTER SECTION ****************/
+
+footer {
+    background-color: #23272a;
+}
+
+.footer-top {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 0 20px 0;
+}
+
+.first-ctn, .footer-top-ctn {
+    border: 1px dashed  black;
+}
+
+.footer-top-ctn {
+    background-color: #20b2aa;
+    height: 400px;
+    width: 17.5%;
+}
+
+.first-ctn {
+    background-color: #f08080;
+    width: 30%;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #7fffd4;
+    padding-top: 15px ;
+    width: 100%;
+}
+
+.footer-bottom-ctn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    padding: 10px 0;
+    width: 70%;
+}
+
+.footer-logo, .footer-button {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
